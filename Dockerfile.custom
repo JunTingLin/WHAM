@@ -1,0 +1,2 @@
+FROM yusun9/wham-vitpose-dpvo-cuda11.3-python3.9:latest
+RUN pip install pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py39_cu113_pyt1110/download.html
